@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Bruna Yano </title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Bruna Yano</h1>
+    </header>
+    <ul class="menu">
+        <li class="menu-item"><a href="#link2">Sobre Mim</a></li>
+        <li class="menu-item"><a href="#link3">Formação</a></li>
+        <li class="menu-item"><a href="#link1">Projetos</a></li>
+        <li class="menu-item"><a href="#link4">Contato</a></li>
+    </ul>
+    
+    <section>
+        <img src="IMAGEM/BRUNA 3.jpeg" alt="Foto Bruna Yano, Sorrindo com cabelo preso e roupa preta" title="Bruna Yano" width="200" >
+        <h2 id="link2">Quem é Bruna Yano ? </h2>
+       
+        <p>Olá Mundo!</p>
+        <p>Me chamo Bruna, tenho 33 anos, casada, resido em São Paulo. No dia a dia, gosto muito de pedalar, cozinhar, assistir filmes, séries, e,  meu hobbie favorito é ir em shows de artistas que gosto.</p>
+        <p> Atuei profissionalmente em algumas empresas com ramos diversos como, educação, metalurgica, comércio e serviços, e atualmente na área de Seguros. No mercado Segurador trabalhei na area operacional solucionando pendencias de clientes e, no momento na área comercial com vendas de diversos produtos  </p>
+        <p> Depois de 13 anos no ramo de Seguros decidi migrar de carreira. Desde então estou conhecendo melhor esse mundo da tecnologia.</p>
+    </section>
+    
+    <section>
+        <h2 id="link3">Formação</h2>
+        <p>Cursando 2º Semestre de Análise e Desenvolvimento de Sistemas pelas Uninter.</p>
+        <p>Curso de Lógica de Programação - Senac Tatuapé - 40h</p>
+        <p>Curso - Introdução a Linguagem Phyton - Meninas Programadoras pela ICMC USP  </p>
+        <p>Curso Excel Básico - Senac Francisco Matarazzo - 24h </p>
+    </section>
+    
+    <section>
+        <h2 id="link1">Projetos</h2>
+        <p> No momento não possui nenhum projeto para apresentar, ainda estou aprimorando meus conhecimentos. </p>
+    </section>
+    
+    <section>
+        <h2 id="link4">Contato</h2>
+        <!-- Formulário de contato -->
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for "mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
